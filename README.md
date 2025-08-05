@@ -11,8 +11,8 @@ position, department, age, hire_date, salary
 Applied constraints:
 
 NOT NULL – name can’t be empty
-CHECK (age >= 18) – to ensure valid age
-DEFAULT – for missing email addresses
+CHECK (age >= 18) – to ensure valid age 
+           DEFAULT – for missing email addresses
 Inserted data using INSERT INTO for multiple employees.
 Updated data: changed age for a specific employee.
 Deleted data: removed one employee record using DELETE.
