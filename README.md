@@ -5,15 +5,15 @@
 
 Created a table emp_1 with fields like:
 
-emp_id (auto-incremented primary key)
-employee_name (required)
-position, department, age, hire_date, salary
+emp_id (auto-incremented primary key),
+employee_name (required),
+position, department, age, hire_date, salary.
 Applied constraints:
 
 NOT NULL – name can’t be empty
-CHECK (age >= 18) – to ensure valid age 
+CHECK (age >= 18) – to ensure valid age. 
 
-DEFAULT – for missing email addresses
+DEFAULT – for missing email addresses.
 
 Inserted data using INSERT INTO for multiple employees.
 
@@ -39,7 +39,7 @@ How to maintain clean and consistent data in a database.
 
 
 🔨Tools
-DB Fiddle / SQLiteStudio
+DB Fiddle / SQLiteStudio.
 
 INSERT
 <img width="1250" height="211" alt="insert_img" src="https://github.com/user-attachments/assets/8611105a-a2de-4a9e-b1d0-b55467ded258" />
