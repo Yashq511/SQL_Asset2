@@ -23,10 +23,13 @@ Tried inserting NULL into employee_name → failed due to NOT NULL.
 
 
 🎯 What I Learned:
-How to insert, update, delete records in SQL
-How to apply data validation using constraints
-How to handle missing values and apply default values
-How to maintain clean and consistent data in a database
+How to insert, update, delete records in SQL,
+
+How to apply data validation using constraints,
+
+How to handle missing values and apply default values,
+
+How to maintain clean and consistent data in a database.
 
 
 🔨Tools
