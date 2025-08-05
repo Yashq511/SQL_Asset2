@@ -12,11 +12,17 @@ Applied constraints:
 
 NOT NULL – name can’t be empty
 CHECK (age >= 18) – to ensure valid age 
-           DEFAULT – for missing email addresses
+
+DEFAULT – for missing email addresses
+
 Inserted data using INSERT INTO for multiple employees.
+
 Updated data: changed age for a specific employee.
+
 Deleted data: removed one employee record using DELETE.
+
 Handled NULLs: added a new column email with a default value if email is not provided.
+
 Tested Constraints:
 Tried inserting an underage employee (age < 18) → failed as expected.
 Tried inserting NULL into employee_name → failed due to NOT NULL.
